@@ -131,3 +131,4 @@ dmypy.json
 # files types to ignore
 *.pkl
 *.XPT
+*.csv
