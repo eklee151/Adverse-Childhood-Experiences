@@ -13,9 +13,13 @@ def abuse():
 def household():
     return render_template('household.html')
 
-@app.route('/neglect')
-def neglect():
-    return render_template('neglect.html')
+@app.route('/cdc-kaiser')
+def cdc_kaiser():
+    return render_template('CDC-Kaiser.html')
+
+@app.route('/resources')
+def resources():
+    return render_template('resources.html')
 
 
 
