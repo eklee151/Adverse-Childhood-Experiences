@@ -2,6 +2,30 @@
 
 {% block content %}
 
+<div class="accordion indicator-plus accordion-white mb3" id="accordion-1" role="tablist">
+    <div class="card border-0 mb-3">
+        <div class="card-header h4 bg-white collapsed" role="tab" id="acc-header-1" href="#acc-panel-1" data-toggle="collapse" data-parent="#accordion-1" aria-controls="acc-panel-1" aria-expanded="false">
+            <button class="card-title btn btn-link">Physical Abuse</button>
+        </div>
+            <div class="collapse" id="acc-panel-1" role="tablist" aria-labelledby="acc-header-1" style="">
+                <div class="card-body bg-white">
+                    <p>Something about physical abuse</p>
+                </div>
+            </div>
+    </div>
+</div>
 
+<div class="accordion indicator-plus accordion-white mb3" id="accordion-1" role="tablist">
+    <div class="card border-0 mb-3">
+        <div class="card-header h4 bg-white collapsed" role="tab" id="acc-header-1" href="#acc-panel-1" data-toggle="collapse" data-parent="#accordion-1" aria-controls="acc-panel-1" aria-expanded="false">
+            <button class="card-title btn btn-link">Emotional Abuse</button>
+        </div>
+            <div class="collapse" id="acc-panel-1" role="tablist" aria-labelledby="acc-header-1" style="">
+                <div class="card-body bg-white">
+                     <p>Something about emotional abuse</p>
+                </div>
+            </div>
+    </div>
+</div>
 
 {% endblock %}
