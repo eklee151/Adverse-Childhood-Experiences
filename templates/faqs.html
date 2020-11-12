@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="p-3 mb-2 bg-success">
+<h3>FAQs</h3>
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header p-3 mb-2 bg-dark" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                What are Adverse Childhood Experiences (ACEs)?
+              </button>
+            </h2>
+          </div>
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              According to the Children's Bureau, ACEs "are traumatic events occuring before the age of 18."
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header p-3 mb-2 bg-dark" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                What are the different types of ACEs?
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              It is usually broken down into three categories: Abuse, Neglect and Household Challenges.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header p-3 mb-2 bg-dark" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                How was the data collected?
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              The data was collected from the CDC's Behavioral Risk Factor Surveillance System (BRFSS) ACE module for the years between 2009 - 2012.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header p-3 mb-2 bg-dark" id="headingFour">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Why are there only pages for Abuse and Household Challenges?
+              </button>
+            </h2>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+            <div class="card-body">
+              The data collected only included questions for these two categories. Neglect items were not added to the BRFSS ACE module until 2019.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header p-3 mb-2 bg-dark" id="headingFive">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                What is the CDC-Kaiser ACE Study?
+              </button>
+            </h2>
+          </div>
+          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+            <div class="card-body">
+              It was one of the first studies looking at the effects of ACE on later-life and wellbeing. 
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>    
+  </div>
+</main>
+</div>
+</div>
+
+
+{% endblock %}

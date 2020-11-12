@@ -21,6 +21,10 @@ def cdc_kaiser():
 def resources():
     return render_template('resources.html')
 
+@app.route('/faqs')
+def faqs():
+    return render_template('faqs.html')
+
 
 
 if __name__ == '__main__':

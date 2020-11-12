@@ -37,23 +37,32 @@
     </nav>
   </div>
 </div>-->
+<div class = 'p-3 mb-2 bg-info text-white'>
 <main role='main' class='container'>
+  <div class='jumbotron p-3 mb-2 bg-info text-white'>
+    <hi class='display-3'>Welcome!</hi>
+    <p>This website is meant to be informational in nature and to give you access to some of the things I discovered when analyzing CDC's ACE data for the years 2009-2012. Have questions about the data, collection method, or ACEs in general?</p>
+    <p>
+      <a class='btn btn-primary btn-lg' href='/faqs' role='button'>Head to the FAQs page for more info</a>
+    </p>
+  </div>
   <div class = 'row'>
-    <div class = 'col-md-9 blog-main'>
+    <div class = 'col-md-12 blog-main'>
       <div class="card-deck"> 
         <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
+          <!--<img src="..." class="card-img-top" alt="...">-->
+          <div class="card-body p-3 mb-2 bg-success text-white">
             <h5 class="card-title">Abuse</h5>
               <p class="card-text">Emotional, Physical, and Sexual</p>
           </div>
           <div class="card-footer">
+            <rect width="100%" height="100%" fill="#007bff"></rect>
             <a href="/abuse" class="card-link">Learn more</a>
           </div>
         </div>
         <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
+          <!--<img src="..." class="card-img-top" alt="...">-->
+          <div class="card-body p-3 mb-2 bg-danger text-white">
             <h5 class="card-title">Household Challenges</h5>
             <p class="card-text">Incarceration, Divorce or Separation, Mental Illness, Substance Abuse, and Intimate Partner Violence</p>
           </div>
@@ -62,8 +71,8 @@
           </div>
         </div>
         <div class="card">
-          <img src = "/img/ACEs-consequences-large.png" class="card-img-top" alt="early adversity has lasting impacts">
-          <div class="card-body">
+          <!--<img src = "/img/ACEs-consequences-large.png" class="card-img-top" alt="early adversity has lasting impacts">-->
+          <div class="card-body p-3 mb-2 bg-warning text-white">
             <h5 class="card-title">CDC-Kaiser ACE Study</h5>
             <p class="card-text">One of the largest investigations of childhood abuse and neglect and household challenges and later-life health and well-being...</p>
           </div>
@@ -72,82 +81,7 @@
           </div>
         </div>
       </div>
-    </div>
-    <aside class="col-md-3 blog-sidebar">
-      <h3>FAQs</h3>
-      <div class="accordion" id="accordionExample">
-        <div class="card">
-          <div class="card-header" id="headingOne">
-            <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                What are Adverse Childhood Experiences (ACEs)?
-              </button>
-            </h2>
-          </div>
-          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-            <div class="card-body">
-              According to the Children's Bureau, ACEs "are traumatic events occuring before the age of 18."
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingTwo">
-            <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                What are the different types of ACEs?
-              </button>
-            </h2>
-          </div>
-          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-            <div class="card-body">
-              It is usually broken down into three categories: Abuse, Neglect and Household Challenges.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingThree">
-            <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                How was the data collected?
-              </button>
-            </h2>
-          </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-            <div class="card-body">
-              The data was collected from the CDC's Behavioral Risk Factor Surveillance System (BRFSS) ACE module for the years between 2009 - 2012.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingFour">
-            <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                Why are there only pages for Abuse and Household Challenges?
-              </button>
-            </h2>
-          </div>
-          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-            <div class="card-body">
-              The data collected only included questions for these two categories. Neglect items were not added to the BRFSS ACE module until 2019.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingFive">
-            <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                What is the CDC-Kaiser ACE Study?
-              </button>
-            </h2>
-          </div>
-          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-            <div class="card-body">
-              It was one of the first studies looking at the effects of ACE on later-life and wellbeing. 
-            </div>
-          </div>
-        </div>
-      </div>
-    </aside>    
+    </div> 
   </div>
 </main>
 </div>
