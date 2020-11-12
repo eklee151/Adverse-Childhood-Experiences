@@ -6,15 +6,15 @@ Adverse Childhood Experiences (ACEs) are defined by the Children's Bureau as "tr
 
 ## Problem Statement
 Can Adverse Childhood Experiences (ACEs) be used to predict future behavior and outcomes?
-   - How well can it be used to predict whether someone will use tobacco products like snuf or chewing tobacco?
-   - How well can it be used to predict whether someone will be limited in their activities because of health issues?
+   - How well can it be used to predict whether someone's use of smokeless tobacco products?
+   - How well can it be used to predict whether someone's activity limitation due to health problems?
    - How well can it be used to predict whether someone is in good or poor health?
    - How well can it be used to predict someone’s smoker status?
    - Can factors other than ACE influence the precision of the models?
    
 ## Packages
-```!pip install imblearn```
-```!pip install xgboost```
+```imblearn```
+```xgboost```
 
 ### Contents:
 - 1_data_collection_inspection
@@ -23,14 +23,14 @@ Can Adverse Childhood Experiences (ACEs) be used to predict future behavior and 
 - 4_sample_data_models
 - 5_best_models
 - 6_heroku_flask_app
-- Capstone.pdf
+- assets
 - README.md
 
 ## Data 
 - The data was collected from the CDC's Behavioral Risk Factor Surveillance System (BRFSS), where the ACE module was included, for the years between 2009 - 2012. 
     - It can be downloaded [here](https://www.cdc.gov/brfss/about/archived.htm)
 - The amount of features within the datasets range from 359 - 454: 
-    - After cleaning only did analysis and modeling on 31 features (including ACEs)
+    - After cleaning, analysis and modeling was only performed on the 31 features, including ACEs, below
     
 ### Data Dictionary
 |Feature|Type|Description|
