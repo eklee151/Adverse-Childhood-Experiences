@@ -1,7 +1,39 @@
 {% extends 'base.html' %}
 
 {% block content %}
-
+<div class = 'w-100 h-100 p-5 mx-auto text-white' style="background-color:#343AEF">
+    <main role='main' class='container mw-100 mh-100' >
+        <div class="row">
+            <div class="col-6">
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action" id="list-partner-list" data-toggle="list" href="#list-partner" role="tab" aria-controls="partner">Intimate Partner Violence</a>
+                    <a class="list-group-item list-group-item-action" id="list-substance-list" data-toggle="list" href="#list-substance" role="tab" aria-controls="substance">Substance Abuse in the Household</a>
+                    <a class="list-group-item list-group-item-action" id="list-mental-list" data-toggle="list" href="#list-mental" role="tab" aria-controls="mental">Mental Illness in the Household</a>
+                    <a class="list-group-item list-group-item-action" id="list-divorce-list" data-toggle="list" href="#list-divorce" role="tab" aria-controls="divorce">Parental Separation or Divorce</a>
+                    <a class="list-group-item list-group-item-action" id="list-incarcerated-list" data-toggle="list" href="#list-incarcerated" role="tab" aria-controls="incarcerated">Incarcerated Household Member</a>
+                </div>
+                </div>
+                <div class="col-6">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade" id="list-partner" role="tabpanel" aria-labelledby="list-partner-list">Parents or adults in home ever slapped, hit, kicked, punched or beat each other up.
+                    </div>
+                    <div class="tab-pane fade" id="list-substance" role="tabpanel" aria-labelledby="list-substance-list">
+                        A household member was a problem drinker or alcoholic or used street drugs or abused prescription medications.
+                    </div>
+                    <div class="tab-pane fade" id="list-mental" role="tabpanel" aria-labelledby="list-mental-list">
+                        A household member was depressed or mentally ill or a household member attempted suicide.
+                    </div>
+                    <div class="tab-pane fade" id="list-divorce" role="tabpanel" aria-labelledby="list-divorce-list">
+                        Parents were ever separated or divorced.
+                    </div>
+                    <div class="tab-pane fade" id="list-incarcerated" role="tabpanel" aria-labelledby="list-incarcerated-list">
+                        A household member went to prison.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
 
 
 {% endblock %}

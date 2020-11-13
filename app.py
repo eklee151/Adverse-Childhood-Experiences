@@ -15,7 +15,7 @@ def household():
 
 @app.route('/cdc-kaiser')
 def cdc_kaiser():
-    return render_template('CDC-Kaiser.html')
+    return render_template('cdc-kaiser.html')
 
 @app.route('/resources')
 def resources():

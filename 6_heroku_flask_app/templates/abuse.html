@@ -1,31 +1,30 @@
 {% extends 'base.html' %}
 
 {% block content %}
-
-<div class="accordion indicator-plus accordion-white mb3" id="accordion-1" role="tablist">
-    <div class="card border-0 mb-3">
-        <div class="card-header h4 bg-white collapsed" role="tab" id="acc-header-1" href="#acc-panel-1" data-toggle="collapse" data-parent="#accordion-1" aria-controls="acc-panel-1" aria-expanded="false">
-            <button class="card-title btn btn-link">Physical Abuse</button>
-        </div>
-            <div class="collapse" id="acc-panel-1" role="tablist" aria-labelledby="acc-header-1" style="">
-                <div class="card-body bg-white">
-                    <p>Something about physical abuse</p>
+<div class = 'w-100 h-100 p-5 mx-auto text-white' style="background-color:#343AEF">
+<main role='main' class='container mw-100 mh-100' >
+    <div class="row">
+        <div class="col-6">
+            <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action" id="list-emotional-list" data-toggle="list" href="#list-emotional" role="tab" aria-controls="emotional">Emotional Abuse</a>
+                <a class="list-group-item list-group-item-action" id="list-physical-list" data-toggle="list" href="#list-physical" role="tab" aria-controls="physical">Physical Abuse</a>
+                <a class="list-group-item list-group-item-action" id="list-sexual-list" data-toggle="list" href="#list-sexual" role="tab" aria-controls="sexual">Sexual Abuse</a>
+            </div>
+            </div>
+            <div class="col-6">
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade" id="list-emotional" role="tabpanel" aria-labelledby="list-emotional-list">
+                    A parent or other adult in your home ever swore at you, insulted you, or put you down.
+                </div>
+                <div class="tab-pane fade" id="list-physical" role="tabpanel" aria-labelledby="list-physical-list">
+                    A parent or other adult in your home ever hit, beat, kicked or physically hurt you.
+                </div>
+                <div class="tab-pane fade" id="list-sexual" role="tabpanel" aria-labelledby="list-sexual-list">
+                    An adult or person at least 5 years older ever touched you in a sexual way, or tried to make you touch their body in a sexual way, or attempted to have sex with you.
                 </div>
             </div>
-    </div>
-</div>
-
-<div class="accordion indicator-plus accordion-white mb3" id="accordion-1" role="tablist">
-    <div class="card border-0 mb-3">
-        <div class="card-header h4 bg-white collapsed" role="tab" id="acc-header-1" href="#acc-panel-1" data-toggle="collapse" data-parent="#accordion-1" aria-controls="acc-panel-1" aria-expanded="false">
-            <button class="card-title btn btn-link">Emotional Abuse</button>
         </div>
-            <div class="collapse" id="acc-panel-1" role="tablist" aria-labelledby="acc-header-1" style="">
-                <div class="card-body bg-white">
-                     <p>Something about emotional abuse</p>
-                </div>
-            </div>
     </div>
+</main>
 </div>
-
 {% endblock %}
