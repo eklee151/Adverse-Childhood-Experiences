@@ -3,8 +3,38 @@
 {% block content %}
 
 <div class = 'w-100 h-100 p-5 mx-auto text-white' style="background-color:#343AEF">
-
-</div>
+    <main role='main' class='container mw-100 mh-100' >
+        <div class="row">
+            <div class="col-4">
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action" id="list-study-list" data-toggle="list" href="#list-study" role="tab" aria-controls="study">When was the study conducted?</a>
+                    <a class="list-group-item list-group-item-action" id="list-pyramid-list" data-toggle="list" href="#list-pyramid" role="tab" aria-controls="pyramid">ACE Pyramid</a>
+                    <a class="list-group-item list-group-item-action" id="list-data-list" data-toggle="list" href="#list-data" role="tab" aria-controls="data">What did they collect data on?</a>
+                    <a class="list-group-item list-group-item-action" id="list-findings-list" data-toggle="list" href="#list-findings" role="tab" aria-controls="findings">Major Findings</a>
+                </div>
+                </div>
+                <div class="col-6">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade" id="list-study" role="tabpanel" aria-labelledby="list-study-list">
+                        Data collected from 1995 to 1997 and garnered over 17,000 participants from Southern California.
+                    </div>
+                    <div class="tab-pane fade" id="list-pyramid" role="tabpanel" aria-labelledby="list-pyramid-list">
+                        <img src="https://www.cdc.gov/violenceprevention/images/acestudy/ace_pyramid_lrg.png" class='rounded img-thumbnail d-block' alt="abuse">
+                    </div>
+                    <div class="tab-pane fade" id="list-data" role="tabpanel" aria-labelledby="list-data-list">
+                        They collected data on Abuse, Household Challenges, and Neglect. Compared to the BRFSS, the mother being treated violently was used inplace of intimate partner violence.
+                    </div>
+                    <div class="tab-pane fade" id="list-findings" role="tabpanel" aria-labelledby="list-findings-list">
+                        Almost 2/3 of those surveyed had at least 1 ACE and 1/5 had 3+ ACEs. 
+                        The BRFSS data analyzed offered a similar picture, even more than 10 years later. It is also important to note that some populatons seem to be more at risk of experiencing ACEs, including Native Americans and women. 
+                        More than 60% of women experienced at least one ACE, while less than 60% of men experienced at least one ACE. They were also more likely to experience a higher number of ACEs.
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    </div>
 
 
 {% endblock %}
