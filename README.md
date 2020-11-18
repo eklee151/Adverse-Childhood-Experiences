@@ -67,4 +67,14 @@ Can Adverse Childhood Experiences (ACEs) be used to predict future behavior and 
 |_INCOMG|nominal|Computed income categories|
 |_TOTINDA|nominal|Leisure Time Physical Activity Calculated Variable|
 
+### Questions and Answers that will be predicted
+- USENOW3: Do you currently use chewing tobacco, snuff, or snus every day, some days, or not at all?
+   - 0 = Unknown, 1 = every day, 2 = some days, 3 = not at all
+- QLACTLM2: Are you limited in any way in any activities because of physical, mental, or emotional problems?
+   - 0 = Unknown, 1 = yes, 2 = no
+- _RFHLTH: Adults with good or better health vs. fair or poor health (based off of GENHLTH)
+   - 0 = Unknown, Not sure or Refused, 1 = Good or Better Health, 2 = Fair or Poor Health
+- _SMOKER3: Four-level smoker status: Everyday smoker, Someday smoker, Former smoker, Non-smoker (based off of SMOKE100 & SMOKEDAY)
+   - 0 = Unknown, 1 = Current smoker (now smokes every day), 2 = Current smoker (now smokes some days), 3 = Former smoker, 4 = Never smoked
+
 ## Conclusion/Recommendations
