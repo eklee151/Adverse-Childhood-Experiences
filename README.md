@@ -39,14 +39,14 @@ Can Adverse Childhood Experiences (ACEs) be used to predict future behavior and 
 |DISPCODE|nominal| Final Disposition|
 |PHYSHLTH|numerical| Number of Days Physical Health Not Good|
 |MENTHLTH|numerical|Number of Days Mental Health Not Good|
-|USENOW3|nominal|Use of Smokeless Tobacco Products|
+**|USENOW3|nominal|Use of Smokeless Tobacco Products|**
 |HISPANC2|nominal|Hispanic/Latino|
 |MARITAL|nominal|Marital Status|
 |CHILDREN|numerical|Number of Children in Household|
 |EMPLOY|nominal|Employment Status|
 |RENTHOM1|nominal|Own or Rent Home|
 |SEX|nominal|Respondents Sex|
-|QLACTLM2|nominal|Activity Limitation Due to Health Problems|
+**|QLACTLM2|nominal|Activity Limitation Due to Health Problems|**
 |ACEDEPRS|nominal|Live With Anyone Depressed, Mentally Ill, Or Suicidal?|
 |ACEDRINK|nominal|Live With a Problem Drinker/Alcoholic?|
 |ACEDRUGS|nominal|Live With Anyone Who Used Illegal Drugs or Abused Prescriptions?|
@@ -60,21 +60,31 @@ Can Adverse Childhood Experiences (ACEs) be used to predict future behavior and 
 |ACEHVSEX|nominal|How Often Did Anyone Ever Force You to Have Sex?|
 |MSCODE|nominal|Metropolitan Status Code|
 |_IMPAGE|numeric|Age value used to determine age groups|
-|_RFHLTH|nominal|Adults with good or better health|
-|_SMOKER3|nominal|Computed Smoking Status
+**|_RFHLTH|nominal|Adults with good or better health|**
+**|_SMOKER3|nominal|Computed Smoking Status**
 |_PRACE|nominal|Computed Preferred Race|
 |_EDUCAG|nominal|Computed level of education completed categories|
 |_INCOMG|nominal|Computed income categories|
 |_TOTINDA|nominal|Leisure Time Physical Activity Calculated Variable|
 
 ### Questions and Answers that will be predicted
-- USENOW3: Do you currently use chewing tobacco, snuff, or snus every day, some days, or not at all?
-   - 0 = Unknown, 1 = every day, 2 = some days, 3 = not at all
-- QLACTLM2: Are you limited in any way in any activities because of physical, mental, or emotional problems?
-   - 0 = Unknown, 1 = yes, 2 = no
-- _RFHLTH: Adults with good or better health vs. fair or poor health (based off of GENHLTH)
-   - 0 = Unknown, Not sure or Refused, 1 = Good or Better Health, 2 = Fair or Poor Health
-- _SMOKER3: Four-level smoker status: Everyday smoker, Someday smoker, Former smoker, Non-smoker (based off of SMOKE100 & SMOKEDAY)
-   - 0 = Unknown, 1 = Current smoker (now smokes every day), 2 = Current smoker (now smokes some days), 3 = Former smoker, 4 = Never smoked
+- USENOW3 (Smokeless Tobacco Usage): Do you currently use chewing tobacco, snuff, or snus every day, some days, or not at all?
+   - 0 = Unknown
+   - 1 = every day
+   - 2 = some days
+   - 3 = not at all
+- QLACTLM2 (Activity Limitations due to health problems): Are you limited in any way in any activities because of physical, mental, or emotional problems?
+   - 0 = Unknown
+   - 1 = yes
+   - 2 = no
+- _RFHLTH (good or poor health): Adults with good or better health vs. fair or poor health (based off of GENHLTH)
+   - 0 = Unknown
+   - 1 = Good or Better Health
+   - 2 = Fair or Poor Health
+- _SMOKER3 (Four-level smoker status): Everyday smoker, Someday smoker, Former smoker, Non-smoker (based off of SMOKE100 & SMOKEDAY)
+   - 0 = Unknown
+   - 1 = Current smoker (now smokes every day)
+   - 2 = Current smoker (now smokes some days)
+   - 3 = Former smoker, 4 = Never smoked
 
 ## Conclusion/Recommendations
