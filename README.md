@@ -2,7 +2,7 @@
 ## Eboni Lee, DSIR-824
 
 # Executive Summary
-Adverse Childhood Experiences (ACEs) are defined by the Children's Bureau as "traumatic events occurring before the age of 18". They can be categorized into abuse, household challenges and neglect. Their importance lies in the fact that they have been linked to a decreased lifespan, mental illness, decreased opportunities, chronic diseases, etc. Essentially, they can affect every aspect of someone's adult life negatively. It is noteworthy to say that they are preventable, when resources are allocated appropriately.
+Adverse Childhood Experiences (ACEs) are defined by the Children's Bureau as "traumatic events occurring before the age of 18". They can be categorized into abuse, household challenges and neglect. Their importance lies in the fact that they have been linked to a decreased lifespan, mental illness, decreased opportunities, chronic diseases, etc. Essentially, they can affect every aspect of someone's adult life negatively. It is noteworthy to say that they are preventable, when resources are allocated appropriately, but even so the rate of them may be increasing. A study done between 1995-97 by the CDC and Kaiser Permanente showed people experiencing at least 1 ACE at a little under 2/3. They only had 17,000 participants. My data showed that more than two-thirds of almost 118,000 participants had experienced 1 or more ACEs. 
 
 ## Problem Statement
 Can Adverse Childhood Experiences (ACEs) be used to predict future behavior and outcomes?
@@ -89,3 +89,8 @@ Can Adverse Childhood Experiences (ACEs) be used to predict future behavior and 
    - 3 = Former smoker, 4 = Never smoked
 
 ## Conclusion/Recommendations
+Women are one of the most vulnerable populations. During EDA and after building my models, identifying as a women was a very important feature for almost all of the models I ran. Because of this, I believe the conversation should really focus on how can we protect young women and girls from ACEs and figuring out a way to decrease the # of ACEs they may experience. Location also matters, a lot of the models showed that living in Tennessee plays a major role in predicting. Unfortunately, there was nothing in the data that indicated as to why Tennessee was so important, but it's definitely something that will have to be looked into further. Lastly, the number of ACEs does count and plays an important role in all models where it was present.
+
+It is also noteworthy to say that even though they are preventable when resources are allocated appropriately, the rate of them may be increasing. A study done between 1995-97 by the CDC and Kaiser Permanente showed people experiencing at least 1 ACE at a little under two-thirds. They only had 17,000 participants. My data showed that more than two-thirds of almost 118,000 participants had experienced 1 or more ACEs.
+
+Data is important and can provide important insights into such a disturbing problem, but it doesn't matter without taking everything within context. Each person surveyed has a story that is uniquely their's and also one that we may never know. Just because we don't know eveything about each person's story, should not be a reason for discouragement, but for motivation to learn more about the stories of those who have experienced ACEs. Becoming aware of them an important first step in figuring out how to help and maybe even change the world in the process. 
