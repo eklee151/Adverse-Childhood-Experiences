@@ -17,12 +17,12 @@ Can Adverse Childhood Experiences (ACEs) be used to predict future behavior and 
 ```xgboost```
 
 ### Contents:
-- 1_data_collection_inspection
-- 2_data_cleaning
-- 3_eda
-- 4_sample_data_models
-- 5_best_models
-- 6_heroku_flask_app
+- [1_data_collection_inspection](https://github.com/eklee151/Adverse-Childhood-Experiences/blob/main/1_data_collection_inspection.ipynb)
+- [2_data_cleaning](https://github.com/eklee151/Adverse-Childhood-Experiences/blob/main/2_data_cleaning.ipynb)
+- [3_eda](https://github.com/eklee151/Adverse-Childhood-Experiences/blob/main/3_eda.ipynb)
+- [4_sample_data_models](https://github.com/eklee151/Adverse-Childhood-Experiences/tree/main/4_sample_data_models)
+- [5_best_models](https://github.com/eklee151/Adverse-Childhood-Experiences/tree/main/best_models)
+- [6_heroku_flask_app](https://github.com/eklee151/Adverse-Childhood-Experiences/tree/main/6_heroku_flask_app)
 - assets
 - README.md
 
@@ -39,14 +39,14 @@ Can Adverse Childhood Experiences (ACEs) be used to predict future behavior and 
 |DISPCODE|nominal| Final Disposition|
 |PHYSHLTH|numerical| Number of Days Physical Health Not Good|
 |MENTHLTH|numerical|Number of Days Mental Health Not Good|
-|**USENOW3|nominal|Use of Smokeless Tobacco Products**|
+|**USENOW3**|**nominal**|**Use of Smokeless Tobacco Products**|
 |HISPANC2|nominal|Hispanic/Latino|
 |MARITAL|nominal|Marital Status|
 |CHILDREN|numerical|Number of Children in Household|
 |EMPLOY|nominal|Employment Status|
 |RENTHOM1|nominal|Own or Rent Home|
 |SEX|nominal|Respondents Sex|
-|**QLACTLM2|nominal|Activity Limitation Due to Health Problems**|
+|**QLACTLM2**|**nominal**|**Activity Limitation Due to Health Problems**|
 |ACEDEPRS|nominal|Live With Anyone Depressed, Mentally Ill, Or Suicidal?|
 |ACEDRINK|nominal|Live With a Problem Drinker/Alcoholic?|
 |ACEDRUGS|nominal|Live With Anyone Who Used Illegal Drugs or Abused Prescriptions?|
@@ -60,8 +60,8 @@ Can Adverse Childhood Experiences (ACEs) be used to predict future behavior and 
 |ACEHVSEX|nominal|How Often Did Anyone Ever Force You to Have Sex?|
 |MSCODE|nominal|Metropolitan Status Code|
 |_IMPAGE|numeric|Age value used to determine age groups|
-|**_RFHLTH|nominal|Adults with good or better health**|
-|**_SMOKER3|nominal|Computed Smoking Status**|
+|**_RFHLTH**|**nominal**|**Adults with good or better health**|
+|**_SMOKER3**|**nominal**|**Computed Smoking Status**|
 |_PRACE|nominal|Computed Preferred Race|
 |_EDUCAG|nominal|Computed level of education completed categories|
 |_INCOMG|nominal|Computed income categories|
