@@ -2,7 +2,7 @@
 ## Eboni Lee, DSIR-824
 
 # Executive Summary
-Adverse Childhood Experiences (ACEs) are defined by the Children's Bureau as "traumatic events occurring before the age of 18". They can be categorized as abuse, household challenges and neglect.  
+Adverse Childhood Experiences (ACEs) are defined by the Children's Bureau as "traumatic events occurring before the age of 18". They can be categorized into abuse, household challenges and neglect. Their importance lies in the fact that they have been linked to a decreased lifespan, mental illness, decreased opportunities, chronic diseases, etc. Essentially, they can affect every aspect of someone's adult life negatively. It is noteworthy to say that they are preventable, when resources are allocated appropriately.
 
 ## Problem Statement
 Can Adverse Childhood Experiences (ACEs) be used to predict future behavior and outcomes?
