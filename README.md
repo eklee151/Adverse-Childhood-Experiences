@@ -21,7 +21,7 @@ Can Adverse Childhood Experiences (ACEs) be used to predict future behavior and 
 - [2_data_cleaning](https://github.com/eklee151/Adverse-Childhood-Experiences/blob/main/2_data_cleaning.ipynb)
 - [3_eda](https://github.com/eklee151/Adverse-Childhood-Experiences/blob/main/3_eda.ipynb)
 - [4_sample_data_models](https://github.com/eklee151/Adverse-Childhood-Experiences/tree/main/4_sample_data_models)
-- [5_best_models](https://github.com/eklee151/Adverse-Childhood-Experiences/tree/main/best_models)
+- [5_best_models](https://github.com/eklee151/Adverse-Childhood-Experiences/tree/main/5_best_models)
 - [6_heroku_flask_app](https://github.com/eklee151/Adverse-Childhood-Experiences/tree/main/6_heroku_flask_app)
 - [ACEs website](https://adverse-childhood-experiences.herokuapp.com/)
 - [presentation](https://github.com/eklee151/Adverse-Childhood-Experiences/blob/main/Capstone.pdf)
